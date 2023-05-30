@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    // 基本 ESLint 設定
+    // "next",
+    // 嚴格 ESLint 設定
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "prettier"
+  ]
 }
